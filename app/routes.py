@@ -5,7 +5,7 @@ import json
 import requests
 
 WEBHOOK_VERIFY_TOKEN = 'test_faq_token'
-PAGE_ACCESS_TOKEN = 'EAAKDUMycqoIBAEcGvvseWX7cEnugAEwri79sWvoxORcBoz34KVIqy3nMBpvElOJwXYNgVQQg9s6x2ZBYOSkE5PF286CT0J2Bp1jJZBhD2in5bAj0db4z6TLbz9n7JseJkFgximvBvY5spPS9eFmH8UUZCUupBgjZB6zIhofziwfJ44bvlsQFl95He6nStX3nNgpGUL4ZAZAQZDZD'
+PAGE_ACCESS_TOKEN = 'EAAC5xQUuOt8BAJEUwMXknVD1tBCpYZCGsbDFpebX5yepmWHFuZBjhPKoap636E2ujjmSiZC6UFOJlkoS3yWU4Xje8DUAncmRQdYVp9mqPz6ArB9Yx1Sjqgxegp2FCUpEXtfXnpqLTUx9fu6Xg7M4gTRBam0SPvt4Xph4jsUucbnsZC2vV0E7RZAT10aytfpQZD'
 
 SEND_API_URL = 'https://graph.facebook.com/v5.0/me/messages?access_token=%s'\
   % PAGE_ACCESS_TOKEN
